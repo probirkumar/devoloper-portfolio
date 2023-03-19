@@ -1,9 +1,43 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
+
+.header-content-wrapper {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+}
+
+.first-helf {
+    flex: 0 0 50%;
+    padding-left: 30px;
+}
+
+h1 {
     font-size: 50px;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
+}
+
+.hire-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.second-helf {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.second-helf img {
+    width: 60%;
 }
