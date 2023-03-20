@@ -7,20 +7,20 @@ body {
 
 .header-content-wrapper {
     display: flex;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 .container {
     width: 100%;
+    margin: auto;
 }
 
 .first-helf {
     flex: 0 0 50%;
-    padding-left: 30px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .orange-color {
@@ -28,9 +28,13 @@ h1 {
 }
 
 .hire-btn {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    display: inline-block;
     padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.hire-btn a {
+    text-decoration: none;
     border-radius: 5px;
 }
 
@@ -54,6 +58,7 @@ h1 {
 .image-area {
     flex: 0 0 50%;
     text-align: center;
+    background-color: rgb(210, 255, 255);
 }
 
 .image-area img {
@@ -63,7 +68,10 @@ h1 {
 
 .dream-area {
     flex: 0 0 50%;
-    padding-left: 20px;
+}
+
+.dream-area-w {
+    padding-left: 30px;
 }
 
 .download-btn a {
@@ -71,4 +79,38 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+/*2nd part end*/
+
+
+.experience-content-wrapper {
+    padding: 50px 0;
+}
+
+.flexgible-area {
+    display: flex;
+    padding: 0 40px;
+}
+
+.first-blog {
+    flex: 50%;
+    margin: 0 50px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.first-blog-w {
+    padding: 10px 15px;
+    border-left: 5px solid tomato;
+}
+
+.second-blog {
+    flex: 50%;
+    margin: 0 50px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.second-blog-w {
+    padding: 10px 15px;
+    border-left: 5px solid blue;
 }
